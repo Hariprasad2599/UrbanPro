@@ -1,0 +1,116 @@
+/* src/pages/Gym.css */
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Use Google Font 'Poppins' for the body */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  /* Page container */
+  .gym-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the page */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Header styles */
+  .gym-page h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #009688; /* Teal color for the heading */
+    font-family: 'Montserrat', sans-serif; /* Use Google Font 'Montserrat' for the heading */
+  }
+  
+  /* Image container */
+  .gym-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  /* Individual image styles */
+  .gym-image {
+    width: 30%;
+    max-height: 300px;
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  }
+  
+  /* Content container */
+  .gym-content {
+    margin-top: 40px;
+  }
+  
+  /* Section styles */
+  .intro, .schedule, .membership {
+    background-color: #fff; /* White background for sections */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    margin-bottom: 30px;
+  }
+  
+  /* Section heading styles */
+  .intro h2, .schedule h2, .membership h2 {
+    font-size: 2em;
+    color: #009688; /* Teal color for section headings */
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Use Google Font 'Roboto' for section headings */
+    font-weight: 700; /* Bold font weight */
+  }
+  
+  /* Text styles */
+  .intro p, .schedule ul, .membership ul {
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif; /* Use Google Font 'Open Sans' for text */
+  }
+  
+  /* List item styles */
+  .intro p {
+    line-height: 1.6;
+  }
+  
+  .schedule ul, .membership ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .schedule li, .membership li {
+    margin-bottom: 10px;
+    color: #555; /* Dark gray color for list items */
+  }
+  
+  /* Custom bullet points for membership plans */
+  .membership li {
+    position: relative; /* Position the bullet */
+  }
+  
+  .membership li::before {
+    content: '\2022'; /* Bullet character */
+    position: absolute;
+    left: -20px; /* Adjust the position */
+    color: #009688; /* Teal color for bullets */
+  }
+  
+  .membership ul {
+    margin-left: 20px; /* Add left margin for bullet alignment */
+  }
+  
+  @media (max-width: 768px) {
+    /* Responsive styles for smaller screens */
+    .gym-images {
+      flex-wrap: wrap;
+    }
+  
+    .gym-image {
+      width: calc(50% - 20px);
+      margin-bottom: 20px;
+    }
+  }
+  

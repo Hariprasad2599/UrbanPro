@@ -1,0 +1,28 @@
+.auth-navigation-bar {
+  background-color: #f8f9fa; 
+  padding: 1rem;
+  border-bottom: 1px solid #ddd; 
+}
+
+.auth-navigation-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.auth-navigation-bar li {
+  margin: 0 1rem;
+}
+
+.auth-navigation-bar a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.auth-navigation-bar a:hover {
+  text-decoration: underline;
+}

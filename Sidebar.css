@@ -1,0 +1,91 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  color: white;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.sidebar:hover {
+  width: 270px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #f39c12, #e74c3c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar ul li a .icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(10px);
+}
+
+.sidebar ul li a:hover .icon {
+  transform: rotate(360deg);
+}
+
+.sidebar ul li a.active {
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+}
+
+.sidebar ul li a span {
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover span {
+  color: #f39c12;
+}
+
+.sidebar ul li a .fas {
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover .fas {
+  color: #e74c3c;
+}

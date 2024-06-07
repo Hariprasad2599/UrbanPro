@@ -1,0 +1,79 @@
+/* src/pages/Account.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.account-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background: #f0f4f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border: 4px solid #2b5876;
+}
+
+.account-details {
+  flex-grow: 1;
+}
+
+.account-details h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #4e4376;
+  font-weight: bold;
+}
+
+.account-details p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.account-settings, .account-activities {
+  margin-top: 20px;
+}
+
+.account-settings h2, .account-activities h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #2b5876;
+  border-bottom: 2px solid #2b5876;
+  padding-bottom: 5px;
+}
+
+.account-settings p, .account-activities p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.account-activities ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.account-activities li {
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.account-activities li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

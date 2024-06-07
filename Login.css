@@ -1,0 +1,61 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-container h2 {
+  font-size: 2em; /* Increased font size */
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container label {
+  display: block;
+  font-size: 1.2em; /* Increased font size */
+  margin-bottom: 10px;
+}
+
+.login-container input,
+.login-container button {
+  font-size: 1.2em; /* Increased font size */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container p {
+  font-size: 1.2em; /* Increased font size */
+}
+
+.login-container a {
+  font-size: 1.2em; /* Increased font size */
+  color: #007bff;
+}
+
+.login-container a:hover {
+  color: #0056b3;
+}

@@ -1,0 +1,75 @@
+
+
+   .activities {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .activities h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .activity {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .activity:hover {
+    transform: scale(1.05);
+  }
+  
+  .activity h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .activity p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .activity p strong {
+    color: #333;
+  }
+  
+  .activity-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .activity-buttons button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .activity-buttons button:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .activity-buttons button:active {
+    background-color: #0056b3;
+  }
+  

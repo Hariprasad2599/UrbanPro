@@ -1,0 +1,47 @@
+.billing-container {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .billing-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .billing-section {
+    margin-bottom: 20px;
+  }
+  
+  .billing-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .billing-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .billing-section li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .total-amount {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+  }
+  
